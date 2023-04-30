@@ -1,2 +1,2 @@
 # linux.github.io
-linux.sheet.pt
+server.sheet.pt
