@@ -1,0 +1,83 @@
+# Site settings
+site: LinuxLogs
+title: Linux Logs
+keywords: linux, grub, debian, config, open source
+description: >-
+  Blog com informações sobre linux. Use o Linux assim, de forma utilitarista e pragmático, desse jeito simplificado escrito nas dicas de cada páginas publicadas aqui
+lang: pt-BR
+timezone:  America/Sao_Paulo
+#repo: https://github.com/onepase/Ephesus # site repo [optional]
+google_verify:      google358c5d4ff06ff585.html # Put your Google Verification here
+google_analytics:   UA-124233277-1 # Put your Google Analytics code
+discus-identifier:  jario
+
+# Author settings
+author:
+  name: Linux Logs 
+  bio: Linux e Open Source<br> por @jario /#linux
+  picture: images/avatar.png 
+#  github: onepase # github username
+  twitter: _jario # twitter username
+#  facebook: onepase # facebook username
+  instagram: jarioswami # instagram username
+  youtube: https://www.youtube.com/jario # youtube username
+#  linkedin: hakantorun # linkedin username
+  email: jario@outlook.com # email adress
+
+
+# URL settings
+url: "https://linuxlogs.jario.com.br" # Domain Name of host. [username].github.io for github pages
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+paginate: 20
+paginate_path: "/page/:num"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
