@@ -1,32 +1,32 @@
 # Site settings
-site: LinuxLogs
-title: Linux Logs
-keywords: linux, grub, debian, config, open source
+site: Server Linux
+title: Sever Linux
+keywords: linux instalar, grub, debian configurar, ubuntu, configuração
 description: >-
   Blog com informações sobre linux. Use o Linux assim, de forma utilitarista e pragmático, desse jeito simplificado escrito nas dicas de cada páginas publicadas aqui
 lang: pt-BR
 timezone:  America/Sao_Paulo
 #repo: https://github.com/onepase/Ephesus # site repo [optional]
-google_verify:      google358c5d4ff06ff585.html # Put your Google Verification here
-google_analytics:   UA-124233277-1 # Put your Google Analytics code
-discus-identifier:  jario
+#google_verify:      google358c5d4ff06ff585.html # Put your Google Verification here
+#google_analytics:   UA-124233277-1 # Put your Google Analytics code
+#discus-identifier:  jario
 
 # Author settings
 author:
-  name: Linux Logs 
-  bio: Linux e Open Source<br> por @jario /#linux
+  name: LinuxServer 
+  bio: Linux e Open Source<br>  tudo de server /#linux
   picture: images/avatar.png 
 #  github: onepase # github username
-  twitter: _jario # twitter username
+#  twitter: _jario # twitter username
 #  facebook: onepase # facebook username
-  instagram: jarioswami # instagram username
-  youtube: https://www.youtube.com/jario # youtube username
+#  instagram: jarioswami # instagram username
+#  youtube: https://www.youtube.com/jario # youtube username
 #  linkedin: hakantorun # linkedin username
-  email: jario@outlook.com # email adress
+#  email: jario@outlook.com # email adress
 
 
 # URL settings
-url: "https://linuxlogs.jario.com.br" # Domain Name of host. [username].github.io for github pages
+url: "https://server.sheet.pt" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
 
 markdown: kramdown
