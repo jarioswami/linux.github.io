@@ -171,8 +171,8 @@
   background-color: #272822;
 }
 .highlight {
-  color: #ffffff;
-  background-color: #272822;
+  color: #111111;
+  background-color: #eeeeee;
 }
 .highlight .n, .highlight .py, .highlight .nx {
   color: #ffffff;
