@@ -1,6 +1,6 @@
-= Mudar 32-bit arquiterura para 64-bit
-:author: jario
-:e-mail: jario@outlook.com
+---
+title: Mudar 32-bit arquiterura para 64-bit
+---
 
 NOTE: Usar o comando sudo dpkg --remove-architecture i386 para ativar o 32bits e se por alguma razão estranha precisar reverter use
 dpkg --get-selections | awk '/i386/{print $1}'
