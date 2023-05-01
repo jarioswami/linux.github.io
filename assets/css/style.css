@@ -22,7 +22,7 @@ body{
   color: var(--primary-font-color);
   margin: 0;
   padding: 5px;
-  font-size: 18px;
+  font-size: 22px;
 }
 .container{
   display: flex; 
