@@ -1,6 +1,6 @@
 # Site settings
-site: Server Linux
-title: Server Linux
+site: Linux
+title: Linux
 keywords: linux instalar, grub, debian configurar, ubuntu, configuração
 description: >-
   Blog com informações sobre linux. Use o Linux assim, de forma utilitarista e pragmático, desse jeito simplificado escrito nas dicas de cada páginas publicadas aqui
@@ -13,7 +13,7 @@ timezone:  America/Sao_Paulo
 
 # Author settings
 author:
-  name: Linux Server 
+  name: Linux  
   bio: Linux e Open Source<br>  tudo de server /#linux
   picture: images/avatar.png 
 #  github: onepase # github username
@@ -26,7 +26,7 @@ author:
 
 
 # URL settings
-url: "https://server.sheet.pt" # Domain Name of host. [username].github.io for github pages
+url: "https://linux.jar.io" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
 
 markdown: kramdown
