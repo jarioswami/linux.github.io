@@ -1,6 +1,11 @@
-Instalando  os pacotes necessários na VM/LINUX.
+---
+layout: post
+title:  Como configurar o MASTODON selfhosted
+date: 2024-00-21
+tags: [ selfhosted ]
+---
 
-
+Instalando  os pacotes necessários na VM/LINUX para instalar o MASTODON.
 
 sudo apt install build-essential bundler git libidn11-dev libjemalloc-dev libpq-dev nginx postgresql postgresql-contrib rbenv redis-server ruby ruby-dev libicu-dev imagemagick sudo ffmpeg curl wget gnupg apt-transport-https lsb-release ca-certificates libssl-dev libreadline-dev libgdbm-dev openssl libz-dev certbot libyaml-dev libffi-dev --no-install-recommends -y
 Não se assuste com a quantidade de pacotes, alguns deles já podem estar instalados no seu servidor mas são mencionados só para garantir que você terá tudo o que precisa. Você também vai precisar do nodejs:
