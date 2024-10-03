@@ -29,5 +29,14 @@
 		<link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ site.url }}/feed.json" />
 		<link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.url }}/sitemap.xml" />
 		<meta name="google-site-verification" content="{{site.google_verify}}" />
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YVZ1B28GKQ"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'G-YVZ1B28GKQ');
+		</script>
 	</head>
 <body>
