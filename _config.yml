@@ -8,8 +8,8 @@ lang: pt-BR
 timezone:  America/Sao_Paulo
 #repo: https://github.com/onepase/Ephesus # site repo [optional]
 #google_verify:      google358c5d4ff06ff585.html # Put your Google Verification here
-#google_analytics:   UA-124233277-1 # Put your Google Analytics code
-#discus-identifier:  jario
+google_analytics:   G-YVZ1B28GKQ # Put your Google Analytics code
+discus-identifier:  jario
 
 # Author settings
 author:
