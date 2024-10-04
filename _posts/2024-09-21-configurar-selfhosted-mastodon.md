@@ -1,7 +1,7 @@
----
+---  
 layout: post
 title:  Como configurar o MASTODON selfhosted
-date: 2024-00-21
+date: 2024-09-21
 tags: [ selfhosted ]
 ---
 
